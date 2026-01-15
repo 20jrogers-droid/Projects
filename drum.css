@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+  }
+
+  body {
+    background-color: #292C34;
+  }
+
+  header {
+    background: white;
+    padding: 20px;
+  }
+
+  header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+  }
+
+  .score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+  }
+
+  .badge {
+    background: #E2564D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+  }
+
+  .choicesnare {
+    position: absolute;
+    top: 396px;
+    left: 546px;
+  }
+
+  .choicehihat {
+    position: absolute;
+    top: 483px;
+    left: 200px;
+  }
+
+  .choicebass {
+    position: absolute;
+    top: 356px;
+    left: 506px;
+  }
+
+  .choicefloortom {
+    position: absolute;
+    bottom: 173px;
+    left: 844px;
+  }
+
+  .choiceride {
+    position: absolute;
+    top: 483px;
+    left: 200px;
+  }
+
+  .choicecrash {
+    position: absolute;
+    top: 360px;
+    left: 440px;
+  }
+
+  .choicehitom {
+    position: absolute;
+    top: 286px;
+    left: 670px;
+  }
+
+  .choicemidtom {
+    position: absolute;
+    top: 287px;
+    left: 774px;
+  }
+
+  #computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+  }
+
+.result {
+   font-size: 40px;
+   color: white; 
+}
+
+#bass {
+  position: absolute; 
+  left: 30px;
+  right: 20px;
+}
+
+#bass {
+    position: absolute; 
+    left: 30px;
+    right: 20px;
+  }
+
+.choices {
+    margin-top: 50px 0;
+    text-align: center;
+}
+
+
+.choice:hover {
+    cursor: pointer;
+    background: #24272E;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
